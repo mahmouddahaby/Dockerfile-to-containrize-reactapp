@@ -1,7 +1,5 @@
 FROM node:alpine as build
 
-RUN mkdir hello-world
-
 WORKDIR /hello-world
 
 ENV PATH="./node_modules/.bin:$PATH"
